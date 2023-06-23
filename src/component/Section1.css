@@ -1,0 +1,27 @@
+.work-home img{
+    width: 555px;
+    height: 350px;
+border-radius: 20px;
+}
+
+.image-box{
+display: flex;
+justify-content: right;
+align-items: center;
+height: 200px;
+/* width: 100px; */
+background-color: #14b789;
+border-radius: 10px;
+color: antiquewhite;
+}
+
+.image-box img{
+width: 250px;
+clip-path: circle();
+/* border: 2px solid #14b789; */
+}
+
+.fnt-small{
+    font-size: 18px;
+    text-align: justify;
+}

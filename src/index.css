@@ -1,8 +1,6 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background: white;
+  font-family:  'DM Sans', sans-serif; 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +8,107 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/*---------------------------------------
+  TYPOGRAPHY               
+-----------------------------------------*/
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight:700;
+  letter-spacing: -1px;
+}
+
+h1 {
+  font-size: 62px;
+  letter-spacing: -3px;
+}
+
+h2 {
+  font-size: 48px;
+  color: #14B789;
+  letter-spacing: -3px;
+}
+
+h3 {
+  font-size:36px;
+}
+
+h4 {
+  font-size:32px;
+}
+
+h5 {
+  font-size: 24px;
+  line-height: normal;
+}
+
+h6 {
+  font-size:22px;
+}
+
+p {
+  color:#717275;
+  font-size:18px;
+  font-weight:400;
+}
+
+ul li {
+  color:#717275;
+  font-size:18px;
+  font-weight:400;
+}
+
+a, 
+button {
+  touch-action: manipulation;
+  transition: all 0.3s;
+}
+
+a {
+  color:#717275;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#14B789;
+}
+
+::selection {
+  background:#14B789;
+  color:white;
+}
+
+::-moz-selection {
+  background:#14B789;
+  color:white;
+}
+
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+b,
+strong {
+  font-weight:700;
+}
+
+.section-title-wrap {
+  background:#14B789;
+  border-radius:10px;
+  padding: 10px 30px;
 }

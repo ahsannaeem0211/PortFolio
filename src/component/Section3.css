@@ -1,0 +1,23 @@
+.section-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.clients-item-height {
+    height: 120px;
+}
+.clients-item-height img {
+    width: 100px;
+}
+.clients-image {
+    display: block;
+    max-width: 100px;
+    margin: auto;
+    transition: all ease 0.2s;
+}
+
